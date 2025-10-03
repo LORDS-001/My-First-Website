@@ -1,7 +1,6 @@
 body {
     background-color: black;
     color: white;
-    font-family: Anton;
 }
 
 .hero {
@@ -15,6 +14,7 @@ body {
     margin-right: 100px;
     margin-top: 49px;
     align-items: center;
+    font-family: Anton;
 }
 
 .logo {
@@ -58,6 +58,7 @@ body {
     color: white;
     padding-top: 15.5px 32px;
     padding-bottom: 15.5px 32px;
+    flex: 0 0 173px;
     width: 173px;
     height: 49px;
     font-size: 1;
@@ -68,6 +69,7 @@ body {
 #contact-btn:hover {
     background-color: #4AF071;
     color: black;
+    height: 40px;
     transition: 0.3s;
 }
 
@@ -114,19 +116,19 @@ body {
     font-size: 72px;
     color: #ffd645;
     margin: 0px;
-    text-shadow: 0px 0px 8px #ffd645;
+    text-shadow: -5px 5px 8px #ffc800;
     letter-spacing: 5px;
+    border-bottom: 2px solid #000000;
 }
-
 #hero-main2 {
     text-align: center;
     font-size: 72px;
     color: #ffd645;
     margin: 0px;
-    text-shadow: 0px 0px 8px #ffd645;
+    text-shadow: -5px 5px 8px #ffc800;
     letter-spacing: 5px;
+    border-bottom: 2px solid #000000;
 }
-
 #project-link {
     color: #4AF071;
     text-decoration: none;
@@ -143,9 +145,9 @@ body {
     justify-content: space-between;
     margin-left: 465px;
     margin-right: 465px;
+    align-items: center;
     align-content: center;
 }
-
 #hero-btn {
     border-radius: 24px;
     border: 2px solid #4AF071;
@@ -154,10 +156,21 @@ body {
     color: white;
     padding-top: 15.5px 32px;
     padding-bottom: 15.5px 32px;
+    flex: 0 0 173px;
     width: 173px;
     height: 49px;
     font-size: 1;
     font-family: anton;
     cursor: pointer;
     align-items: center;
+}
+#hero-btn:hover {
+    background-color: #4AF071;
+    color: black;
+    height: 40px;
+    transition: 0.3s;
+}
+
+#mango-profile {
+    width: 100%;
 }
