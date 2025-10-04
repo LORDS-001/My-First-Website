@@ -3,6 +3,7 @@ body {
     color: white;
 }
 
+
 .hero {
     background-image: url('images/Hero\ Background\ Design.png');
 }
@@ -12,7 +13,7 @@ body {
     display: flex;
     margin-left: 100px;
     margin-right: 100px;
-    margin-top: 49px;
+    margin-top: 40px;
     align-items: center;
     font-family: Anton;
 }
@@ -75,8 +76,8 @@ body {
 
 
 .hero-content {
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 90px;
+    padding-bottom: 70px;
     text-align: center;
 }
 
@@ -111,24 +112,17 @@ body {
     height: 33px;
 }
 
-#hero-main1 {
+#hero-main {
     text-align: center;
     font-size: 72px;
     color: #ffd645;
-    margin: 0px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     text-shadow: -5px 5px 8px #ffc800;
     letter-spacing: 5px;
     border-bottom: 2px solid #000000;
 }
-#hero-main2 {
-    text-align: center;
-    font-size: 72px;
-    color: #ffd645;
-    margin: 0px;
-    text-shadow: -5px 5px 8px #ffc800;
-    letter-spacing: 5px;
-    border-bottom: 2px solid #000000;
-}
+
 #project-link {
     color: #4AF071;
     text-decoration: none;
@@ -171,6 +165,27 @@ body {
     transition: 0.3s;
 }
 
+
 #mango-profile {
     width: 100%;
+}
+
+
+.content {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.about {
+    padding-top: 100px;
+    padding-bottom: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.about1 {
+    height: auto;
+    width: 50%;
 }
