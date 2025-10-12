@@ -1,6 +1,7 @@
 body {
     background-color: black;
     color: white;
+    font-size: 18px;
 }
 
 
@@ -189,3 +190,19 @@ body {
     height: auto;
     width: 50%;
 }
+
+#about-header {
+    font-size: 64px;
+    margin: auto;
+}
+
+#about-sub-header {
+    padding-top: 20px;
+}
+
+#about-info {
+    margin-bottom: 30px;
+    font-size: 18px;
+    align-self: right;
+}
+
